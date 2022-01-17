@@ -10,16 +10,22 @@
 </head>
 
 <body>
-  <button onclick="myFunction()">Нажми меня, please!</button>
+  <button onclick="myFunction()">Нажми меня, please!</button> <!-- Кнопка для запуска функции-->
+
   <script>
+    //присвоение значения переменным и вывод уведомление
     let name="Виталий Валентинович";
     let admin=name;
     alert(admin);
+
+    //замена значения переменной admin в функции и вывод склееного текста с помощью бинарного плюса
     function myFunction() {
       let admin="Павел Анатольевич";
       document.write(admin + " " + name);
     }
+
   </script>
+
 </body>
 
 </html>
